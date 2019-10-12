@@ -54,6 +54,7 @@ kotlin {
                 sourceMap = true
                 verbose = true
                 moduleKind = "umd"
+                sourceMapEmbedSources = "always"
             }
         }
     }
